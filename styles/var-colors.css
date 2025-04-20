@@ -1,0 +1,11 @@
+:root {
+  --hue: 44;
+
+  --bg-color: hsl(var(--hue), 0%, 7%);
+  --text-color: hsl(var(--hue), 0%, 93%);
+  
+  --primary-color: hsl(var(--hue), 95%, 55%);
+  
+  --controls-bg-color: hsl(var(--hue), 0%, 14%);
+  --button-secondary: hsl(var(--hue), 0%, 93%);
+}

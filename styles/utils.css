@@ -1,0 +1,20 @@
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+.sr-only {
+  position: absolute; /* Remove do fluxo normal do layout */
+  width: 1px; /* Tamanho mínimo possível */
+  height: 1px; /* Tamanho mínimo possível */
+  padding: 0;
+  margin: -1px; /* Evita que ocupe espaço */
+  overflow: hidden; /* Esconde qualquer conteúdo que ultrapasse */
+  clip: rect(0, 0, 0, 0); /* Clipa completamente o elemento */
+  white-space: nowrap; /* Impede quebra de linha */
+  border: 0;
+  appearance: none;
+}

@@ -1,0 +1,3 @@
+:root {
+  font-size: clamp(40%, 1% + 2vw, 62.5%); 
+}
