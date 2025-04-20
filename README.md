@@ -4,24 +4,11 @@
 
 <!-- header tags -->
 <p align="center">
-  <!-- Rocketseat -->
-  <img src="https://img.shields.io/badge/Rocketseat%20-%20%23633BBC?style=flat">
-  <!-- / -->
-  <img src="https://img.shields.io/badge/%2F%20-%20%2323121214?style=flat">
-  <!-- Explorer -->
-  <img src="https://img.shields.io/badge/Explorer%20-%20%23633BBC?style=flat">
-  <!-- / -->
-  <img src="https://img.shields.io/badge/%2F%20-%20%2323121214?style=flat">
-  <!-- Nível 6 -->
-  <img src="https://img.shields.io/badge/N%C3%ADvel%2006%3A%20Avan%C3%A7ando%20no%20JavaScript%20-%20%23633BBC?style=flat">
-  <!-- / -->
-  <img src="https://img.shields.io/badge/%2F%20-%20%2323121214?style=flat">
-  <!-- Nível 04: Avançando no JavaScript -->
-  <img src="https://img.shields.io/badge/Stage%2005%3A%20Avan%C3%A7ando%20no%20JavaScript%20-%20%23633BBC?style=flat">
-  <!-- / -->
-  <img src="https://img.shields.io/badge/%2F%20-%20%2323121214?style=flat">
-  <!-- Challenge Focus Timer -->
-  <img src="https://img.shields.io/badge/Challenge%20Focus%20Timer-%20%23633BBC">
+Rocketseat <!-- --> &nbsp&nbsp>&nbsp&nbsp
+Explorer <!-- --> &nbsp&nbsp>&nbsp&nbsp 
+Nível 6: Avançando no JavaScript <!-- --> &nbsp&nbsp>&nbsp&nbsp 
+Stage 05: Avançando no JavaScript <!-- --> &nbsp&nbsp>&nbsp&nbsp 
+<strong>Challenge Focus Timer</strong>
 </p>
 
 <!-- nav -->
