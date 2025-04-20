@@ -38,4 +38,4 @@ Este projeto foi desenvolvido com tecnologias <strong>HTML</strong>, <strong>CSS
 O <strong>JavaScript</strong> foi modularizado com responsabilidades bem definidas para cada arquivo, incluindo controle do DOM, manipulação do tempo, estados dos botões, e integração com os elementos de interface. Recursos como <code>setTimeout</code>, manipulação de eventos, objetos e funções reutilizáveis foram empregados para garantir uma lógica eficiente e coesa.
 
 ## 🔖 Layout
-Desenvolvido pela própria Rocketseat, você pode visualizar o layout do projeto através [desse link](https://www.figma.com/file/Pw8yMsK7HFkD6aISZt6gPA/Stage-05---Focus-Timer-2.0/duplicate). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+Desenvolvido pela própria Rocketseat, você pode visualizar o [layout do projeto](https://www.figma.com/file/Pw8yMsK7HFkD6aISZt6gPA/Stage-05---Focus-Timer-2.0/duplicate) através do link. É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
