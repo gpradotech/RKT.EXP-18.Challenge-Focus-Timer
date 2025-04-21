@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" class="running dark-theme">
 <head>
   <!-- metadata -->
   <meta charset="UTF-8">
@@ -17,6 +17,31 @@
   <script type="module" src="./src/main.js" defer></script>
 </head>
 <body>
-  
+  <main class="flex">
+    <!-- timer -->
+    <section id="timer">
+      <!-- clock -->
+      <div class="timer-numbers flex">
+        <span id="minutes">25</span>
+        <span>:</span>
+        <span id="seconds">00</span>
+      </div>
+      <!-- controls -->
+      <div class="countdown-controls">
+        <button class="ph-fill ph-play-circle"></button>
+        <button class="ph-fill ph-pause-circle"></button>
+        <button class="ph-fill ph-stop-circle"></button>
+        <button class="ph-fill ph-plus-circle"></button>
+        <button class="ph-fill ph-minus-circle"></button>
+      </div>
+    </section>
+    <!-- sounds -->
+    <section id="sounds">
+      <button class="ph ph-tree"></button>
+      <button class="ph ph-cloud-rain"></button>
+      <button class="ph ph-storefront"></button>
+      <button class="ph ph-fire"></button>
+    </section>
+  </main>
 </body>
 </html>

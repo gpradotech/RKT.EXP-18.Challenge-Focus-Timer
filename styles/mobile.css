@@ -1,0 +1,25 @@
+@media (max-width: 950px) {
+  main {
+    flex-direction: column;
+    gap: 72px;
+  }
+  
+  section {
+    flex: 0;
+  }
+  
+  #timer {
+    gap: 48px;
+  }
+  
+  #sounds {
+    display: flex;
+
+    & button {
+      width: 64px;
+      height: 64px;
+      font-size: 1.5rem;
+      border-radius: 12px;
+    }
+    }
+  }
