@@ -100,8 +100,32 @@ export function setupControls() {
 
   // Botões da seção de sons
   const soundButtons = document.querySelectorAll('#sounds button')
-  soundButtons[0].addEventListener('click', () => toggleAmbientSound(soundEffects.forest))
-  soundButtons[1].addEventListener('click', () => toggleAmbientSound(soundEffects.rain))
-  soundButtons[2].addEventListener('click', () => toggleAmbientSound(soundEffects.market))
-  soundButtons[3].addEventListener('click', () => toggleAmbientSound(soundEffects.fire))
+  soundButtons[0].addEventListener('click', () => {
+    soundButtons[0].classList.toggle('active')
+    soundButtons[1].classList.remove('active')
+    soundButtons[2].classList.remove('active')
+    soundButtons[3].classList.remove('active')
+    toggleAmbientSound(soundEffects.forest)
+  })
+  soundButtons[1].addEventListener('click', () => {
+    soundButtons[1].classList.toggle('active')
+    soundButtons[0].classList.remove('active')
+    soundButtons[2].classList.remove('active')
+    soundButtons[3].classList.remove('active')
+    toggleAmbientSound(soundEffects.rain)
+  })
+  soundButtons[2].addEventListener('click', () => {
+    soundButtons[2].classList.toggle('active')
+    soundButtons[0].classList.remove('active')
+    soundButtons[1].classList.remove('active')
+    soundButtons[3].classList.remove('active')
+    toggleAmbientSound(soundEffects.market)
+  })
+  soundButtons[3].addEventListener('click', () => {
+    soundButtons[3].classList.toggle('active')
+    soundButtons[0].classList.remove('active')
+    soundButtons[1].classList.remove('active')
+    soundButtons[2].classList.remove('active')
+    toggleAmbientSound(soundEffects.fire)
+  })
 }

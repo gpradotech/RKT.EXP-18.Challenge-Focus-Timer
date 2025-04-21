@@ -137,3 +137,8 @@ html:not(.dark-theme) .ph-sun {
 .dark-theme #sounds {
   filter: drop-shadow(0px 0px 0px);
 }
+
+.active {
+  background: var(--primary-color) !important;
+  color: #131313 !important;
+}
