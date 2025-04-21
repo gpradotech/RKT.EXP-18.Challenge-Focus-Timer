@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br" class="running dark-theme">
+<html lang="pt-br" class="running ">
 <head>
   <!-- metadata -->
   <meta charset="UTF-8">
@@ -18,6 +18,12 @@
 </head>
 <body>
   <main class="flex">
+    <!-- theme -->
+    <button id="toggle-mode">
+      <span class="sr-only">Ativar Light Mode</span>
+      <i class="ph-bold ph-sun"></i>
+      <i class="ph-bold ph-moon"></i>
+    </button>
     <!-- timer -->
     <section id="timer">
       <!-- clock -->
@@ -28,11 +34,36 @@
       </div>
       <!-- controls -->
       <div class="countdown-controls">
-        <button class="ph-fill ph-play-circle"></button>
-        <button class="ph-fill ph-pause-circle"></button>
-        <button class="ph-fill ph-stop-circle"></button>
-        <button class="ph-fill ph-plus-circle"></button>
-        <button class="ph-fill ph-minus-circle"></button>
+        <!-- play -->
+        <div id="play" class="play bg-button">
+          <button class="ph-fill ph-play-circle"></button>
+          <span class="sr-only">Iniciar contador</span>
+        </div>
+        <!-- pause -->
+        <div id="pause" class="bg-button">
+          <button class="ph-fill ph-pause-circle"></button>
+          <span class="sr-only">Pausar contador</span>
+        </div>
+        <!-- set -->
+        <div id="set" class="bg-button">
+          <button class="ph-fill ph-timer"></button>
+          <span class="sr-only">Resetar contador</span>
+        </div>
+        <!-- stop -->
+        <div id="stop" class="bg-button">
+          <button class="ph-fill ph-stop-circle"></button>
+          <span class="sr-only">Resetar contador</span>
+        </div>
+        <!-- plus -->
+        <div id="plus" class="bg-button">
+          <button class="ph-fill ph-plus-circle"></button>
+          <span class="sr-only">Mais 1 minuto</span>
+        </div>
+        <!-- minus -->
+        <div id="minus" class="bg-button">
+          <button class="ph-fill ph-minus-circle"></button>
+          <span class="sr-only">Menos 1 minuto</span>
+        </div>
       </div>
     </section>
     <!-- sounds -->

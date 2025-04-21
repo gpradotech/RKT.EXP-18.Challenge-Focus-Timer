@@ -11,6 +11,21 @@ main {
   height: 100vh;
   gap: 152px;
   flex-wrap: wrap;
+  position: relative;
+}
+
+#toggle-mode {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  font-size: 2rem;
+  border: 0;
+  background: none;
+  color: var(--text-color);
+
+  &:active {
+    transform: translatey(4px);
+  }
 }
 
 section {
@@ -41,6 +56,26 @@ section {
     height: 88px;
     border-radius: 999px;
     border: 2px solid rgba(255, 255, 255, 0.05);
+
+    & .bg-button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background: var(--bg-color);
+      transition: all 0.15s ease-in-out;
+
+      &:nth-child(1),
+      &:nth-child(2),
+      &:nth-child(3):hover,
+      &:nth-child(4):hover,
+      &:nth-child(5):hover,
+      &:nth-child(6):hover {
+        background: #131313;
+      }
+    }
     
     & button {
       font-size: 3rem;
@@ -62,6 +97,7 @@ section {
   grid-template-columns: repeat(2, 152px);
   grid-template-rows: repeat(2, 152px);
   gap: 32px;
+  filter: drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.10)) drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.09)) drop-shadow(0px 10px 6px rgba(0, 0, 0, 0.05)) drop-shadow(0px 18px 7px rgba(0, 0, 0, 0.01)) drop-shadow(0px 29px 8px rgba(0, 0, 0, 0.00));
 
   & button {
     width: 152px;
@@ -73,7 +109,7 @@ section {
 
     &:hover {
       background: var(--primary-color);
-      color: var(--bg-color);
+      color: #131313;
     }
 
     &:active {
@@ -89,6 +125,15 @@ button {
   transition: all 0.15s ease-in-out;
 }
 
-.running .ph-pause-circle {
-  display: none;
+.running #play,
+html:not(.running) #pause,
+.running #set,
+html:not(.running) #stop,
+.dark-theme .ph-moon,
+html:not(.dark-theme) .ph-sun {
+  display: none !important;
+}
+
+.dark-theme #sounds {
+  filter: drop-shadow(0px 0px 0px);
 }

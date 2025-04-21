@@ -1,4 +1,16 @@
-:root {
+html {
+  --hue: 44;
+
+  --bg-color: hsl(var(--hue), 0%, 97%);
+  --text-color: hsl(var(--hue), 0%, 14%);
+  
+  --primary-color: hsl(var(--hue), 98%, 47%);
+  
+  --controls-bg-color: hsl(var(--hue), 0%, 93%);
+  --button-secondary: hsl(var(--hue), 0%, 14%);
+}
+
+html.dark-theme {
   --hue: 44;
 
   --bg-color: hsl(var(--hue), 0%, 7%);
