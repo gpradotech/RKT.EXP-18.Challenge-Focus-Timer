@@ -142,3 +142,11 @@ html:not(.dark-theme) .ph-sun {
   background: var(--primary-color) !important;
   color: #131313 !important;
 }
+
+/* ----------------- */
+
+@media (prefers-reduced-motion) {
+  button {
+    transition: none;
+  }
+}
